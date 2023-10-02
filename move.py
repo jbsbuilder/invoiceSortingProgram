@@ -39,3 +39,4 @@ def move_files_based_on_filename(directory):
 if __name__ == '__main__':
     # Process all files in the current directory
     move_files_based_on_filename('.')
+    
