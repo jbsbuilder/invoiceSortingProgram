@@ -3,6 +3,9 @@ import os
 from PIL import Image
 import pytesseract
 
+# Set the Tesseract OCR executable file pathway
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+
 def extract_info_from_image(img_path):
     try:
         # Open image using PIL
